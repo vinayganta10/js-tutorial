@@ -1,6 +1,5 @@
 # JAVA SCRIPT
 ## Topics you need to know about java sript
----
 ### About
 - single threaded - no matter how many cores are in the machine js uses single core to run its code.
 - Asynchronus code - but we can make it a type of synchronus by using callback functions.
@@ -153,3 +152,4 @@ note:Not using new keyword while creating an object may lead to create global va
   note: we cannot pass argument after rest operator.
 6. default arguments are arguments which are initialized in the function declaration.If the argument
   is not passed it takes the default value.
+---
