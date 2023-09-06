@@ -135,3 +135,18 @@ note:Not using new keyword while creating an object may lead to create global va
    element and applies a function.It takes two parameters accumalator and current value.It applies
    the function and stores it in the accumalator.
 
+### Functions
+1. function decleration - function(){}
+  semicolon is not required.
+  fn declaration supports hoisting.
+2. function expression - a function is initialized to a variable or a constant.
+  let var = function(){};
+  semicolon is required.
+  fn expression doesn't supports hoisting.
+3. hoisting - when the js engine executes the code,all the function declarations are moved to
+  the top of the code.so,when we call any function before the declaration,it gets executed.
+4. arguments keyword is the array of arguments passed to the any function.
+5. the rest operator(...) is similar to spread operator.it takes the arguments as an array.
+  note: we cannot pass argument after rest operator.
+6. default arguments are arguments which are initialized in the function declaration.If the argument
+  is not passed it takes the default value.
