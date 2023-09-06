@@ -89,7 +89,7 @@ note:Not using new keyword while creating an object may lead to create global va
    1. primitive strings()- syntax - let message = " ";
    2. object strings()-syntax - let another = new string(" ");
 - string object support many string methods.
-- template literals- denoted by `` ``. 
+- template literals- denoted by backticks(``). 
    used for indentation and new line purposes in strings.
    Especially when you write a email template literals are used.
 
