@@ -1,5 +1,6 @@
 # JAVA SCRIPT
 ## Topics you need to know about java sript
+---
 ### About
 - single threaded - no matter how many cores are in the machine js uses single core to run its code.
 - Asynchronus code - but we can make it a type of synchronus by using callback functions.
@@ -9,12 +10,14 @@
 - interpreted or compiled or jit compiled???
 > answer : js is a just in time compiled language that uses an interpreter in the first phase
 
+---
+
 ### Basics
 1. The default value of any variable is undefined.
 2. js variables doesn't need any decleration.
 3. arrays in js are declared by square brackets.
 >note:array is also an object.
-
+---
 ### Operators
 1. arithemetic operators(+,-,*,/,%,**)
 2. Assignment operators(+=,=)
@@ -26,7 +29,7 @@
   >- Falsy-undefined,null,0,false,'',NaN
   >- Truthy-other than Falsy
 5. bitwise operators(|,&)
-
+---
 ### Control-flow
 1. if-else
 2. switch case
@@ -38,7 +41,7 @@
 7. for of loop
 > note:but the for of loop returns the values in the arrray instead of indexes.
 8. break and continue statements
-
+---
 ### Objects
 - an object in java script is essentially a key value pairs(The keys can be objects,functions or values).
 note: We should not always use object literals.
@@ -91,7 +94,7 @@ note:Not using new keyword while creating an object may lead to create global va
    used for indentation and new line purposes in strings.
    Especially when you write a email template literals are used.
 
-
+---
 ### Arrays
 1. adding of numbers to an array-
  > - push() - to add elements at the end of an array.
@@ -134,7 +137,7 @@ note:Not using new keyword while creating an object may lead to create global va
 16. reduce method is used to reduce the array into a single value.Like map method it takes every
    element and applies a function.It takes two parameters accumalator and current value.It applies
    the function and stores it in the accumalator.
-
+---
 ### Functions
 1. function decleration - function(){}
   semicolon is not required.
