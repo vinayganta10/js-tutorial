@@ -1,4 +1,4 @@
-const numbers = [1,2,3,4];
+const numbers = [1,2,3,4,5];
 
 const output = except(numbers,[1]);
 
